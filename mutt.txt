@@ -10,8 +10,10 @@ Mutt cheat-sheet
     s - change the subject
     t - edit recipients
     y - send msg
+    TAB - show address book (when to, cc or bcc field is active)
 
   Main menu, reading message
+    a - create new addressbook entry (only when using abook integration)
     c - change to a different mailfolder
     C - copy selected msg to another inbox
     d -mark msg for deletion
