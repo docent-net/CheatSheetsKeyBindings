@@ -1,6 +1,10 @@
 GPG cheat-sheet
   keys:
     genkey: --gen-key
+      for genentropy: 
+        dd if=/dev/vda of=/dev/zero
+        or yum install rng-tools && service rngd start (adding in
+        /etc/sysconfig/rngd '-r /dev/urandom' for EXTRAOPTS)
     export pubkey: --export -a "User Name" > public.key
     export prvkey: gpg --export-secret-key -a "User Name" > private.key
       --export-secret-keys key-id > private_key
