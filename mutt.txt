@@ -1,50 +1,51 @@
-Sending message:
-  a - attach files
-  b - edit BCC
-  c - edit CC
-  p - edit PGP options
-  ALT-k - attach PGP pubkey
-  ^f - forget PGP pass
-  r - edit Reply-To
-  s - change the subject
-  t - edit recipients
-  y - send msg
+Mutt cheat-sheet
+  Sending message:
+    a - attach files
+    b - edit BCC
+    c - edit CC
+    p - edit PGP options
+    ALT-k - attach PGP pubkey
+    ^f - forget PGP pass
+    r - edit Reply-To
+    s - change the subject
+    t - edit recipients
+    y - send msg
 
-Main menu, reading message
-  c - change to a different mailfolder
-  C - copy selected msg to another inbox
-  d -mark msg for deletion
-  f - forward msg
-  F - mark as important
-  i - return from reading msg to main menu
-  I - show msgs matching pattern
-  j,k - change selected msg in main menu to next/prev
-  m - compose a new msg
-  o - change current sort method
-  r - reply
-  s - save cur msg to a file
-  t - toggle a tag on msg or entire thread
-  T - tag msgs matching a pattern
-  u - unmark deletion
-  v - view attachments
-  ? - HELP
-  ^| - clear and redraw the screen
-  ALT-k - send public GPG key to someone
-  - - move to prv page while reading msg
-  <space> - move to next page while reading msg (or first page of next
-  undeleted msg)
-  / - pattern search in the headers of msgs
-  = - select first msg
-  $ - sync mbox (deletes marked for deletion, checks for new mail)
-  @ - display full address of sender
-  * - marks last msg
-  <number> - selects msg number...
-  TAB - selects the next new msg
+  Main menu, reading message
+    c - change to a different mailfolder
+    C - copy selected msg to another inbox
+    d -mark msg for deletion
+    f - forward msg
+    F - mark as important
+    i - return from reading msg to main menu
+    I - show msgs matching pattern
+    j,k - change selected msg in main menu to next/prev
+    m - compose a new msg
+    o - change current sort method
+    r - reply
+    s - save cur msg to a file
+    t - toggle a tag on msg or entire thread
+    T - tag msgs matching a pattern
+    u - unmark deletion
+    v - view attachments
+    ? - HELP
+    ^| - clear and redraw the screen
+    ALT-k - send public GPG key to someone
+    - - move to prv page while reading msg
+    <space> - move to next page while reading msg (or first page of next
+    undeleted msg)
+    / - pattern search in the headers of msgs
+    = - select first msg
+    $ - sync mbox (deletes marked for deletion, checks for new mail)
+    @ - display full address of sender
+    * - marks last msg
+    <number> - selects msg number...
+    TAB - selects the next new msg
 
 
-Threads:
-  - - collapse thread
-  # - break thread in 2
-  & - link threads
+  Threads:
+    - - collapse thread
+    # - break thread in 2
+    & - link threads
 
 
