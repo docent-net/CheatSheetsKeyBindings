@@ -10,3 +10,10 @@ VIM cheat-sheet:
     (insert mode)
       ctrl-t - indent current line
       ctrl-d - remove indent at current line
+  GPG:
+    gnupg.vim: https://github.com/jamessan/vim-gnupg
+    :GPGEditRecipients - edit list of recipients
+    :GPGViewRecipients - view thew list of recipients
+    :GPGEditOptions - options for encryption
+      :GPGViewOptions - list of all options
+    more: http://www.vim.org/scripts/script.php?script_id=3645
