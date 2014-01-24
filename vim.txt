@@ -1,0 +1,12 @@
+VIM cheat-sheet:
+  Indenting:
+    > (single indent)
+    Vjjjjjj> (block indent)
+    >% (indent braced or bracketed block)
+    =% - reindent braced or bracketed block
+    ]p - align pasted block
+    gg=G - reindent whole buffer
+
+    (insert mode)
+      ctrl-t - indent current line
+      ctrl-d - remove indent at current line
