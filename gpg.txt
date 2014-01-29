@@ -47,3 +47,5 @@ GPG cheat-sheet
         --sign for signing with prvkey
     decrypt:
       -o document.doc -d document.doc.gpg
+  sign msg:
+      - sign file.txt
