@@ -34,7 +34,7 @@ GPG cheat-sheet
         -r (recipient pubkey)
       --output document.doc.gpg --encrypt --recipient somewhone@somewhere.com document.doc
     decrypt: 
-      -d document.doc.gpg -o document.doc
+      -o document.doc -d document.doc.gpg
       --output document.doc --decrypt document.doc.gpg
   encrypt / decrypt (symmetric):
     In ~/gnupg/gpg.conf:
