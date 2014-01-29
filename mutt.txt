@@ -47,7 +47,9 @@ Mutt cheat-sheet
 
   Threads:
     - - collapse thread
+    shift + - - collapse all threads
     # - break thread in 2
     & - link threads
 
-
+  Useful for macros:
+    t + ; + s + ? - tag choosen msgs and move to choosen directory
