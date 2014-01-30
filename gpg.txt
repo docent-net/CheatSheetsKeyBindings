@@ -48,4 +48,6 @@ GPG cheat-sheet
     decrypt:
       -o document.doc -d document.doc.gpg
   sign msg:
-      - sign file.txt
+      --clearsign document.txt
+      --clearsign --detach-sign document.txt (with detaching signature)
+      -- verify document.txt.asc (verifying)
