@@ -1,5 +1,5 @@
 Mutt cheat-sheet
-  Sending message:
+  Sending (composing) message:
     a - attach files
     b - edit BCC
     c - edit CC
@@ -10,6 +10,8 @@ Mutt cheat-sheet
     s - change the subject
     t - edit recipients
     y - send msg
+    CTRL-X - insert canned response (via vim/mutt-canned)
+    CTRL-v - create new canned response from selected text (via vim/mutt-canned)
     TAB - show address book (when to, cc or bcc field is active)
 
   Main menu, reading message
