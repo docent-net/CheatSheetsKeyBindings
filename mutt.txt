@@ -46,7 +46,6 @@ Mutt cheat-sheet
     <number> - selects msg number...
     TAB - selects the next new msg
 
-
   Threads:
     - - collapse thread
     shift + - - collapse all threads
@@ -55,3 +54,5 @@ Mutt cheat-sheet
 
   Useful for macros:
     t + ; + s + ? - tag choosen msgs and move to choosen directory
+    c + ? + shift-C - create mailbox
+    t + ; + W + n - mark as read (clear unread flag)
