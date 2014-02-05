@@ -1,14 +1,15 @@
 Terminator cheat-sheet:
   - ALT left/right/down/up - focus terminal window
   - (shift) ctrl+TAB - cycles through terminals
-  - shift-ctrl-E - edit window title
+  - WIN + E - edit window title
   - WIN + G - group all
   - WIN + T - group tab
   - shift + WIN + G - ungroup all
   - shift + WIN + T - ungroup tab
   - WIN + B - broadcast group
   - shift + WIN + B - stop broadcasting group
-  - shift + ctrl + page up/down - cycles through tabs
+  - shift + ctrl + page up/down - cycles tabs order
+  - ctrl + page up/down - cycles through tabs
   - WIN + I - new terminator window
   - shift + ctrl + down / up / left / right - resizes window
   - shift + WIN + R - rotate ccw
