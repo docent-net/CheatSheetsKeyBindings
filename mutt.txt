@@ -39,6 +39,7 @@ Mutt cheat-sheet
     <space> - move to next page while reading msg (or first page of next
     undeleted msg)
     / - pattern search in the headers of msgs
+    l - search and limits view (filter)
     = - select first msg
     $ - sync mbox (deletes marked for deletion, checks for new mail)
     @ - display full address of sender
