@@ -1,4 +1,8 @@
 VIM cheat-sheet:
+  
+  u - undo
+  ctrl + r - redo
+
   % - jump between matches (brackets etc)
     - by matchit plugin:
       - g% - cycle backwards through specified groups (by |b:match_words|)
