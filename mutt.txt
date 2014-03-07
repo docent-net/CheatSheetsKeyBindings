@@ -17,6 +17,8 @@ Mutt cheat-sheet
   Main menu, reading message
     a - create new addressbook entry (only when using abook integration)
     c - change to a different mailfolder
+      d - delete mailfolder
+      shift + c - create mailbox
     C - copy selected msg to another inbox
     d -mark msg for deletion
     f - forward msg
@@ -30,6 +32,7 @@ Mutt cheat-sheet
     s - save cur msg to a file
     t - toggle a tag on msg or entire thread
     T - tag msgs matching a pattern
+      ;WN - mark all messages as read
     u - unmark deletion
     v - view attachments
     ? - HELP
