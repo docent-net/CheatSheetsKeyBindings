@@ -39,3 +39,7 @@ VIM cheat-sheet:
     - ds" - removes delimiters
     - yssb + yss) - wrap entire line with )
     - ysiw<em> - wrap current word with <em>
+  - gist
+    :Gist - pushes current buffer
+      -p - private mode
+      -a - anonymous mode
