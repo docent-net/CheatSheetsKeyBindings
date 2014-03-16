@@ -5,7 +5,7 @@ systemd cheat-sheet:
     - http://0pointer.de/blog/projects/systemd-docs.html
   - managing services:
     - systemctl - list running services
-    - systemctl status some.service - show runtime status of service
+    - systemctl status some-service - show runtime status of service
     - systemd-cgls - show cgroup tree
     - systemctl start/stop/restart/status/enable/disable/is-enabled someservice
   - managing targets (runlevels):
