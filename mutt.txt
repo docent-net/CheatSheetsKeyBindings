@@ -57,3 +57,4 @@ Mutt cheat-sheet
     t + ; + s + ? - tag choosen msgs and move to choosen directory
     c + ? + shift-C - create mailbox
     t + ; + W + n - mark as read (clear unread flag)
+    T (same as above but marking multiple messages)
