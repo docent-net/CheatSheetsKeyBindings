@@ -22,6 +22,7 @@ VIM cheat-sheet:
       :GPGViewOptions - list of all options
     more: http://www.vim.org/scripts/script.php?script_id=3645
   gundo:
+    - toggle: F5
     - manual: http://sjl.bitbucket.org/gundo.vim/#usage
     - j/k/gg/G - moving
     - enter <cr> - apply change
