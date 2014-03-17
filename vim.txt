@@ -39,3 +39,8 @@ VIM cheat-sheet:
     :Gist - pushes current buffer
       -p - private mode
       -a - anonymous mode
+  - evervim:
+    - https://github.com/kakkyz81/evervim/blob/master/doc/evervim.txt
+    :EvervimNotebookList
+    :EvervimListTags
+    :EvervimSearchByQuery query
