@@ -17,6 +17,7 @@ Tmux cheat-sheet:
   prefix & Kill the current window
   prefix , Rename the current window
   prefix q Show pane numbers (used to switch between panes)
+  prefix z - zoom in/out current pane
   prefix ? List all keybindings
   prefix -/| - split hori/vert (customized via config)
   prefix arrows - move between panes (customized via config)
