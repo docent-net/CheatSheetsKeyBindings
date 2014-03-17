@@ -25,3 +25,7 @@ Tmux cheat-sheet:
   prefix p - previous windows
   prefix w - list all windows
 
+  prefix ESC - vi mode
+    v - selects from buffer
+    y - copy
+  prefix p - paste (previously copied in vim mode)
