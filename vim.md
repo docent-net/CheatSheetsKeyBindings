@@ -1,13 +1,13 @@
 # VIM cheat-sheet: #
 ***
 ## Matching
-    - % - jump between matches (brackets etc)
-    - by matchit plugin:
-        - g% - cycle backwards through specified groups (by |b:match_words|)
-        - a% - in V selects all the matching group
+- `%` - jump between matches (brackets etc)
+- by matchit plugin:
+    - `g%` - cycle backwards through specified groups (by |b:match_words|)
+    - `a%` - in V selects all the matching group
 ## Indenting: ##
-- > (single indent)
-- Vjjjjjj> (block indent)
+- `>` (single indent)
+- `Vjjjjjj>` (block indent)
 - >% (indent braced or bracketed block)
 - =% - reindent braced or bracketed block
 - ]p - align pasted block
