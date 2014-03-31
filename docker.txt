@@ -20,3 +20,7 @@ Docker cheat-sheet:
   - FS
     - cp - copies files from cnt (one way)
     - export - creates cnt's tarball
+    - enter FS (withous SSH via nsenter):
+      nsenter -m -u -n -i -p -t 2217 /bin/bash
+        where 2217 is containers PID taken from:
+        docker inspect --format '{{ .State.Pid }}' a711c7ab0420
