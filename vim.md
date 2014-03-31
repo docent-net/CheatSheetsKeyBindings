@@ -6,26 +6,26 @@
         - g% - cycle backwards through specified groups (by |b:match_words|)
         - a% - in V selects all the matching group
 ## Indenting: ##
-    - > (single indent)
-    - Vjjjjjj> (block indent)
-    - >% (indent braced or bracketed block)
-    - =% - reindent braced or bracketed block
-    - ]p - align pasted block
-    - gg=G - reindent whole buffer
+- > (single indent)
+- Vjjjjjj> (block indent)
+- >% (indent braced or bracketed block)
+- =% - reindent braced or bracketed block
+- ]p - align pasted block
+- gg=G - reindent whole buffer
 
-    - (insert mode)
-        - ctrl-t - indent current line
-        - ctrl-d - remove indent at current line
+- (insert mode)
+- ctrl-t - indent current line
+- ctrl-d - remove indent at current line
 # folding: #
-    - F9 / space / zo / zc - (un)fold current context
-    - zO / zC - (un)fold all
+- F9 / space / zo / zc - (un)fold current context
+- zO / zC - (un)fold all
 ## GPG: ##
-    - gnupg.vim: https://github.com/jamessan/vim-gnupg
-    - :GPGEditRecipients - edit list of recipients
-    - :GPGViewRecipients - view thew list of recipients
-    - :GPGEditOptions - options for encryption
-    - :GPGViewOptions - list of all options
-    - more: http://www.vim.org/scripts/script.php?script_id=3645
+- gnupg.vim: https://github.com/jamessan/vim-gnupg
+- :GPGEditRecipients - edit list of recipients
+- :GPGViewRecipients - view thew list of recipients
+- :GPGEditOptions - options for encryption
+- :GPGViewOptions - list of all options
+- more: http://www.vim.org/scripts/script.php?script_id=3645
 ## gundo: ##
     - toggle: F5
     - manual: http://sjl.bitbucket.org/gundo.vim/#usage
