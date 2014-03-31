@@ -18,6 +18,17 @@
     - `ctrl-t` - indent current line
     - `ctrl-d` - remove indent at current line
 
+## windows / buffers: ##
+- `:(v)split` - (vertical/horizontal) split
+- `ctrl + w + w` - move between windows
+- `:ls` - list buffers
+- `:b2` - go to buffer 2
+- resize windows:
+    - `ctrl + +/-` - resize horizontally by 1 line
+    - `ctrl + w + </>` - reize vertically by 1 char
+    - `ctrl + w + =` - autoadjust vertically
+    - `ctrl + w + _` - autoadjust horizontally
+
 ## folding: ##
 - `F9 / space / zo / zc` - (un)fold current context
 - `zO / zC` - (un)fold all
