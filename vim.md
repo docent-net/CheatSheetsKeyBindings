@@ -1,5 +1,4 @@
 # VIM cheat-sheet: #
-***
 ## Matching
 - `%` - jump between matches (brackets etc)
 - by matchit plugin:
@@ -8,14 +7,14 @@
 ## Indenting: ##
 - `>` (single indent)
 - `Vjjjjjj>` (block indent)
-- >% (indent braced or bracketed block)
-- =% - reindent braced or bracketed block
-- ]p - align pasted block
-- gg=G - reindent whole buffer
+- `>%` (indent braced or bracketed block)
+- `=%` - reindent braced or bracketed block
+- `]p` - align pasted block
+- `gg=G` - reindent whole buffer
 
 - (insert mode)
-- ctrl-t - indent current line
-- ctrl-d - remove indent at current line
+    - `ctrl-t` - indent current line
+    - `ctrl-d` - remove indent at current line
 # folding: #
 - F9 / space / zo / zc - (un)fold current context
 - zO / zC - (un)fold all
