@@ -15,7 +15,7 @@
 - (insert mode)
     - `ctrl-t` - indent current line
     - `ctrl-d` - remove indent at current line
-# folding: #
+## folding: ##
 - F9 / space / zo / zc - (un)fold current context
 - zO / zC - (un)fold all
 ## GPG: ##
