@@ -45,7 +45,7 @@
 - `cs'<q>` - change ' to <q>...</q>
 - `ds"` - removes delimiters
 - `yssb + yss)` - wrap entire line with )
-- `ysiw\`` - wrap current word with \`
+- ``ysiw` `` - wrap current word with `` ` ``
 
 ## gist: ##
 - `:Gist` - pushes current buffer
