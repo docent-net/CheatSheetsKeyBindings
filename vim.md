@@ -1,9 +1,11 @@
 # VIM cheat-sheet: #
+
 ## Matching
 - `%` - jump between matches (brackets etc)
 - by matchit plugin:
     - `g%` - cycle backwards through specified groups (by |b:match_words|)
     - `a%` - in V selects all the matching group
+
 ## Indenting: ##
 - `>` (single indent)
 - `Vjjjjjj>` (block indent)
@@ -15,6 +17,7 @@
 - (insert mode)
     - `ctrl-t` - indent current line
     - `ctrl-d` - remove indent at current line
+
 ## folding: ##
 - F9 / space / zo / zc - (un)fold current context
 - zO / zC - (un)fold all
