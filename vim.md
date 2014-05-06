@@ -29,6 +29,10 @@
     - `ctrl + w + =` - autoadjust vertically
     - `ctrl + w + _` - autoadjust horizontally
 
+## characters ##
+- `:%s/\a/&/g` - number of letters in buffer
+- `:%s/\S/&/g` - number of non-whitespace characters
+
 ## folding: ##
 - `F9 / space / zo / zc` - (un)fold current context
 - `zO / zC` - (un)fold all
