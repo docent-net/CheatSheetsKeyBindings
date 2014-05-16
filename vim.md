@@ -1,5 +1,11 @@
 # VIM cheat-sheet: #
 
+## miscellaneous
+- `<leader>z` - nice edit mode (no distractions)
+- `<leader>ss` - spell checking
+- `<leader>o` - bufexplorer
+- `<leader>f` - list of most recent used files
+
 ## Matching
 - `%` - jump between matches (brackets etc)
 - by matchit plugin:
@@ -67,3 +73,30 @@
     - `:EvervimNotebookList`
     - `:EvervimListTags`
     - `:EvervimSearchByQuery` query
+
+## vim-node ##
+- `gf` - inside require("...") to jump to source and module files.
+- `[I` - on any keyword to look for it in the current and required files.
+- `:Nedit module_name` to edit the main file of a module.
+- `:Nedit module_name/lib/foo` to edit its lib/foo.js file.
+- `:Nedit .` to edit your Node projects main (usually index.js) file.
+- `<C-w>f` - top open the file under the cursor in a new vertical split
+
+## vim-grep ##
+- `:vimgrep /Users/ **/*.js`
+- `:vimgrep /Users/ **/*.js **/*.coffee`
+- `:cope` - show results in quick list window
+- `<leader>cc` - copy the quick list into new buffer
+- `:g/models/d` - delete all lines with 'model' word
+- `:g!/import/d` - delete all lines without 'import' word
+
+## encryption ##
+- all `.gpg` files will be automatically encrypted with gpg
+- `:X` - will encrypt file with blowfish
+
+## superstart ##
+- when in visulmode:
+    - `*` key will search forwards for selection
+    - `#` key will search backwards for selection
+    - `gv` will vimgrep fpr selection
+    - selections will be escaped :)
