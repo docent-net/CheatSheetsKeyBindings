@@ -1,4 +1,4 @@
-Mutt cheat-sheet
+# Mutt cheat-sheet #
   Sending (composing) message:
     a - attach files
     b - edit BCC
